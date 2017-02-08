@@ -13,7 +13,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 
-import GiftedListView from '../GiftedListView';
+import GiftedListView from 'react-native-gifted-listview';
 
 export default class GiftedListViewExample  extends Component {
 
