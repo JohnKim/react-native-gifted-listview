@@ -6,9 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react": "^0.14.8",
-    "react-native": "^0.25.1",
-    "react-native-gifted-listview": "file:../",
-    "react-native-gifted-spinner": "0.0.3"
+    "react": "^15.4.2",
+    "react-native": "^0.41.2",
+    "react-native-gifted-listview": "file:../"
   }
 }
