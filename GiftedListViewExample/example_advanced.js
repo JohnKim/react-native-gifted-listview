@@ -9,11 +9,11 @@ import {
   Text,
   View,
   TouchableHighlight,
-  Platform
+  Platform,
+  ActivityIndicator,
 } from 'react-native';
 
-import GiftedListView from 'react-native-gifted-listview';
-import GiftedSpinner from 'react-native-gifted-spinner';
+import GiftedListView from '../GiftedListView';
 
 export default class GiftedListViewExample  extends Component {
 
@@ -126,7 +126,7 @@ export default class GiftedListViewExample  extends Component {
   _renderRefreshableFetchingView() {
     return (
       <View style={customStyles.refreshableView}>
-        <GiftedSpinner />
+        <ActivityIndicator />
       </View>
     );
   }
@@ -155,7 +155,7 @@ export default class GiftedListViewExample  extends Component {
   _renderPaginationFetchigView() {
     return (
       <View style={customStyles.paginationView}>
-        <GiftedSpinner />
+        <ActivityIndicator />
       </View>
     );
   }
